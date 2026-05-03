@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "VBB Routes Button",
+        "description": "Manual VBB route query. Routes update only after pressing the refresh button.",
+        "data": {
+          "name": "Name",
+          "origin_name": "Origin name",
+          "origin_address": "Origin address",
+          "origin_lat": "Origin latitude",
+          "origin_lon": "Origin longitude",
+          "destination_id": "Destination stop ID",
+          "destination_name": "Destination name",
+          "min_depart_offset_min": "Minimum departure offset in minutes",
+          "max_transfers": "Maximum transfers",
+          "results": "Raw VBB results to request",
+          "top_n": "Number of route sensors"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This manual route query is already configured."
+    }
+  }
+}
